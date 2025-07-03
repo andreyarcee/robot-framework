@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.1 (Python 3.13.5 on win32)" generated="2025-07-03T16:49:21.282562" rpa="false" schemaversion="5">
+<suite id="s1" name="Primeiro Teste" source="C:\Users\andre\OneDrive\Documentos\Profile\Projeto-Curso\robot-framework\robot-tests\primeiro_teste.robot">
+<test id="s1-t1" name="Preencher os campos do formulário" line="6">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-07-03T16:49:21.537068" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000'.</msg>
+<arg>url=http://localhost:3000</arg>
+<arg>browser=Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-07-03T16:49:21.536865" elapsed="1.536806"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-07-03T16:49:23.074442" level="INFO">Typing text 'Andrey' into text field 'id:form-nome'.</msg>
+<arg>id:form-nome</arg>
+<arg>Andrey</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T16:49:23.074075" elapsed="0.065344"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-07-03T16:49:23.139908" level="INFO">Typing text 'QA' into text field 'id:form-cargo'.</msg>
+<arg>id:form-cargo</arg>
+<arg>QA</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T16:49:23.139712" elapsed="0.045730"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-07-03T16:49:23.185902" level="INFO">Typing text 'https://picsum.photos/id/237/200/300' into text field 'id:form-imagem'.</msg>
+<arg>id:form-imagem</arg>
+<arg>https://picsum.photos/id/237/200/300</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T16:49:23.185716" elapsed="0.066236"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-07-03T16:49:23.252430" level="INFO">Clicking element 'class:lista-suspensa'.</msg>
+<arg>class:lista-suspensa</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T16:49:23.252238" elapsed="0.055502"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-07-03T16:49:23.308259" level="INFO">Clicking element '//option[contains(.,'Programação')]'.</msg>
+<arg>//option[contains(.,'Programação')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T16:49:23.308061" elapsed="0.021752"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-07-03T16:49:33.330881" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-07-03T16:49:23.330063" elapsed="10.001137"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-07-03T16:49:33.331687" level="INFO">Clicking element 'id:form-botao'.</msg>
+<arg>id:form-botao</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T16:49:33.331486" elapsed="0.045468"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2025-07-03T16:49:33.390272" level="INFO">Element 'class:colaboradores' is displayed.</msg>
+<arg>class:colaboradores</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2025-07-03T16:49:33.377302" elapsed="0.013040"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-07-03T16:49:38.391211" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-07-03T16:49:33.390626" elapsed="5.000724"/>
+</kw>
+<status status="PASS" start="2025-07-03T16:49:21.536027" elapsed="16.855672"/>
+</test>
+<status status="PASS" start="2025-07-03T16:49:21.283636" elapsed="17.108830"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Primeiro Teste" id="s1" pass="1" fail="0" skip="0">Primeiro Teste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
